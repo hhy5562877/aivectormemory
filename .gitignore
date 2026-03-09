@@ -9,6 +9,10 @@ dist/
 # Virtual environment
 .venv/
 
+# uv file
+uv.lock
+.python-version
+
 # AIVectorMemory data
 .aivectormemory/
 .devmemory/
@@ -34,6 +38,7 @@ Thumbs.db
 .pytest_cache/
 htmlcov/
 .coverage
+tests/
 
 # Screenshots (Playwright)
 tests/screenshots/
